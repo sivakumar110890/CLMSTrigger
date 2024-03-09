@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CLMS Trigger testing suite]">
+  <test thread-count="5" name="CLMS Login for Trigger(failed)">
+    <classes>
+      <class name="testSuite.TC_LoginTestCase_001">
+        <methods>
+          <include name="LoginTestExecution"/>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testSuite.TC_LoginTestCase_001 -->
+    </classes>
+  </test> <!-- CLMS Login for Trigger(failed) -->
+  <test thread-count="5" name="TriggerSearch(failed)">
+    <classes>
+      <class name="testSuite.TC_TriggerSearch_002">
+        <methods>
+          <include name="testTriggerSearch"/>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testSuite.TC_TriggerSearch_002 -->
+    </classes>
+  </test> <!-- TriggerSearch(failed) -->
+  <test thread-count="5" name="Trigger Add feature(failed)">
+    <classes>
+      <class name="testSuite.TC_TriggerAdd_002">
+        <methods>
+          <include name="testExecutionTriggerAdd"/>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testSuite.TC_TriggerAdd_002 -->
+    </classes>
+  </test> <!-- Trigger Add feature(failed) -->
+  <test thread-count="5" name="Trigger history search(failed)">
+    <classes>
+      <class name="testSuite.TC_TriggerHistory_003">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="testExecutionTriggerHistory"/>
+        </methods>
+      </class> <!-- testSuite.TC_TriggerHistory_003 -->
+    </classes>
+  </test> <!-- Trigger history search(failed) -->
+</suite> <!-- Failed suite [CLMS Trigger testing suite] -->

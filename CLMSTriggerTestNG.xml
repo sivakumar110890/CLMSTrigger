@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="CLMS Trigger testing suite">
+
+<test name = "CLMS Login for Trigger">
+<classes>
+<class name="testSuite.TC_LoginTestCase_001"/>
+</classes>
+</test>
+
+<test name="TriggerSearch">
+<classes>
+<class name="testSuite.TC_TriggerSearch_002"/>
+</classes>
+</test>
+
+<test name="Trigger Add feature">
+<classes>
+<class name="testSuite.TC_TriggerAdd_002"/>
+</classes>
+</test>
+
+<test name ="Trigger history search">
+<classes>
+<class name="testSuite.TC_TriggerHistory_003"/>
+</classes>
+</test>
+</suite>
